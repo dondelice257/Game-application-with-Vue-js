@@ -1,0 +1,62 @@
+  #pres{
+            display: flex;
+            margin: 20px;
+            justify-content: space-around;
+        }
+        #pointCont{
+            width: 300px;
+            background-color: aliceblue;
+            height: 40px;
+            overflow: hidden;
+            
+        }
+        #pointCountS{
+            background-color: aqua;
+            width: 100%;
+            height: 100%;
+        
+            
+        }
+        #pointCountD{
+            background-color: aqua;
+            width: 100%;
+            height: 100%;
+
+            
+        }
+        .count{
+            padding-top: 10px;
+        }
+        button{
+            padding: 10px;
+            width: 150px;
+            border: none;
+            margin: 5px;
+            color: white;
+            font-size: 25px;
+        }
+        #action{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+            margin: 10px;
+        }
+        ul{
+            background-color: azure;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        li{
+            margin: 10px;
+            color: white;
+            font-size: 20px;
+            width: 200px;
+            padding: 3px;
+            display: flex;
+            justify-content: space-between;
+        }
