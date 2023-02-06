@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<div id="app">
+    <div id="pres">
+       <div id="delice">
+        <center>D</center>
+        <div id="pointCont">
+            <div id="pointCountD" :style="{width : scoreD + '%'}">
+                <center class="count">{{scoreD}}</center>
+            </div>
+        </div>
+       </div>
+       <div id="dushisoft">
+        <center>S</center>
+        <div id="pointCont">
+            <div id="pointCountS" :style="{width : scoreS + '%'}">
+                <center class="count">{{scoreS}}</center>
+            </div>
+        </div>
+       </div>
+    </div>
+    <div id="action">
+        <button v-if="showMe" style="background-color: blue;" @click="showHide">start</button>
+        <div id="changes" v-else>
+            <button style="background-color: green;" @click="play">Play</button>
+            <button @click="showHide" style="background-color:red" id="giveUp">Give up</button>
+        </div>
+    </div>
+    <ul></ul>
+         
+    </div>
+    <div id="app1">
+        <span>{{name}}</span>
+        <button @click="chang">Change</button>
+    </div>
+    <script src="https://unpkg.com/vue@next" ></script>
+    <script src="app.js" ></script>
+    
+    
+    
+</body>
+</html>
