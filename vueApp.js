@@ -10,7 +10,7 @@
             },
             methods : {
                 showHide(){
-                    this.showMe = !this.showMe10
+                    this.showMe = !this.showMe
                 },
                 play(){
                     let numb = [1, 3, 5, 7, 9];
